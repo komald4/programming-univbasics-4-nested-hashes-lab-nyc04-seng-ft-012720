@@ -84,7 +84,7 @@ def changing_alan
   alans_new_info = "GUI"
   programmer_hash[:grace_hopper][:known_for] = alans_new_info
   programmer_hash
-}
+
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
 
 end
