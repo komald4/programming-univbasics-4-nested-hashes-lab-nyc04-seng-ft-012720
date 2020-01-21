@@ -80,6 +80,7 @@ def changing_alan
 		:known_for => "COBOL"
 		#:languages => ["C"]
 	}
+}
   alans_new_info = "GUI"
   programmer_hash[:grace_hopper][:known_for] = alans_new_info
   programmer_hash
