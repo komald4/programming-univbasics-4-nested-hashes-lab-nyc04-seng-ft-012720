@@ -19,7 +19,7 @@ def alan_kay_is_known_for
         #  :languages => ["Smalltalk", "LISP"]
       #  :dennis_ritchie => {
       #    :known_for => "Unix",
-          #:languages => ["C"]
+          :languages => ["C"]
         }
      }
 		 	programmer_hash[:grace_hopper][:known_for]
