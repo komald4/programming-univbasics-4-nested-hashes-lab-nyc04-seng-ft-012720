@@ -38,12 +38,12 @@ def dennis_ritchies_language
       #  },
       #  :dennis_ritchie => {
       #    :known_for => "Unix",
-      :languages => ["C"]
+      #:languages => ["C"]
 
-        }
-     }
+      #  }
+    # }
 
-		 		programmer_hash[:dennis_ritchie][:languages]
+		 		#programmer_hash[:dennis_ritchie][:languages]
 end
 
 def adding_matz
@@ -52,10 +52,10 @@ def adding_matz
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
 # }
-	programmer_hash =
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
+	#programmer_hash =
+ 		#{
+      #  :grace_hopper => {
+        #  :known_for => "COBOL",
           #:languages => ["COBOL", "FORTRAN"]
         #},
       #  :alan_kay => {
@@ -65,13 +65,13 @@ def adding_matz
       #  :dennis_ritchie => {
       #    :known_for => "Unix",
         #  :languages => ["C"]
-        }
-     }
+    #    }
+    # }
 
-		 		programmer_hash[:yukihiro_matsumoto] = {known_for: "ruby",
-				languages:["LISP", "C"]
-			}
-programmer_hash
+		 #		programmer_hash[:yukihiro_matsumoto] = {known_for: "ruby",
+			#	languages:["LISP", "C"]
+			#}
+#programmer_hash
 end
 
 def changing_alan
