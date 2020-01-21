@@ -13,14 +13,14 @@ def alan_kay_is_known_for
 	#programmer_hash =
  		#{
       #  :grace_hopper => {
-          :known_for => "C"
+          :#known_for => "C"
         #  :languages => ["Smalltalk", "LISP"]
       #  :dennis_ritchie => {
       #    :known_for => "Unix",
-          #:languages => ["C"]
+          :languages => ["C"]
         }
      }
-		 	return programmer_hash[:grace_hopper][:known_for]
+		 	return programmer_hash[:alan_kay][:known_for]
 
 end
 
